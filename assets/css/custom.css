@@ -9,7 +9,8 @@ Just un comment the #banner rule below. */
   background-image: url(../../images/EDITED/lakeshot.jpg);
   background-size: cover;
   color: rgba(255, 255, 255, 0.75);
-  text-shadow: 1px 1px 15px #333;
+  <
+  /*text-shadow: 1px 1px 15px #333;*/
   text-align: center;
   cursor: default;
   padding: 10em 4em 9em 4em;
@@ -23,6 +24,9 @@ added to the button in the index html file as well.*/
 #banner .button.redbtn {
   background-color: #e07065;
   box-shadow: none;
+  height: 50px;
+line-height: 50px;
+border-radius: 10px;
 }
 
 #banner .button.redbtn:hover {
